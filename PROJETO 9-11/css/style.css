@@ -1,0 +1,211 @@
+body {
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #CE96A3;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: #FFFF;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 15px;
+    font-family: 'Inter' , sans-serif;
+    border: none;
+}
+
+.navbar a:hover {
+    background-color: #C78E9B;
+    color: #FFFF;
+}
+
+.navbar .logo {
+    max-height: 50px;
+    margin-right: 30px;
+    margin-left: 16px; 
+}
+
+.banner{
+    width: 100vw;
+    height: auto;
+}
+      
+.apresentação h1{
+    color: #DBA15E;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-bottom: 2px;
+}
+.apresentação p{
+    color: #547E9F;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+#sobre {
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+    padding-left: 430px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 150px;
+    
+}
+
+.josé{
+   float: left;
+   padding-top: 10px;
+   padding-left: 50px;
+   width: 280px;
+   height: 300px;
+}
+
+.karol {
+   float: left;
+   padding-top: 10px;
+   padding-left: 50px;
+   width: 280px;
+   height: 315px;
+}
+
+.infojose h2{
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+    height: 5px;
+    
+} 
+.infojose p{
+    color: #547E9F;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding-left: -5px;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+}
+
+.infojose {
+    float: right;
+    margin: -55px 30px 30px 80px;
+    padding-bottom: 30px;
+    padding-top: -100px;
+
+}
+
+.infokarol h2{
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+    height: 5px;
+    
+} 
+.infokarol p{
+    color: #547E9F;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding-left: -5px;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+}
+
+.infokarol {
+    float: right;
+    margin: -55px 30px 30px 10px;
+    padding-bottom: 30px;
+    padding-top: -100px;
+    padding-right: 80px;
+
+}
+
+#textojose {
+    float: left;
+    height: auto;
+    width: 400px;
+    text-align: justify;
+    line-height: 25px;
+    color: #547E9F;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-left: 90px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.container {
+    background-color: rgb(252, 238, 221);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 50px 330px 50px; 
+    margin: 5px 200px 100px 200px; /* Ajuste conforme necessário */
+  }
+
+.containerjose {
+    background-color: rgb(252, 238, 221);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 50px 330px 50px; 
+    margin: 5px 200px 30px 200px; /* Ajuste conforme necessário */
+}
+  
+#links {
+    text-decoration: none;
+    color:#547E9F;
+}
+
+#nproj {
+    color: #DBA15E;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-bottom: 2px;
+}
+
+#proj {
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+    padding-left: 200px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    width: 200px;
+}
+
+#fotoprojeto {
+   float: center;
+   padding-top: 10px;
+   padding-left: 200px;
+   width: 180px;
+   height: 180px;
+}
