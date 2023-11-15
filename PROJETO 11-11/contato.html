@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="javascript/contato2.js"></script>
     <title>Contato</title>
-    <script src="javascript/contato.js"></script> 
 </head>
 <body>
-
     <div class="navbar" id="minhanavbar">
         <img alt = "Logo DUO" src="img/logo.jpg" class="logo">
         <a href="index.html">Sobre</a>
@@ -18,29 +23,23 @@
       </div>
 
     <div id="overlay">
-        <form action="https://api.staticforms.xyz/submit" method="post" onsubmit="event.preventDefault(); validateForm()">
+        <form action="https://api.staticforms.xyz/submit" method="post" data-form>
         <input type="hidden" name="accessKey" value="f8fb56a0-e769-48ff-8efb-6811faa3d453">
+        <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
 
-            <h1>Entre em contato</h1>
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" placeholder="Seu nome">
-            <small class="error"></small>
+        <h1>Entre em contato</h1>
+        <label for="nome">Nome</label>
+        <input type="text" name="name" id="nome" required>
+        
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" required>
+        
+        <label for="mensagem">Mensagem</label>
+        <textarea name="message" id="mensagem" required></textarea>
 
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" placeholder="Seu E-mail">
-            <small class="error"></small>
+        <button type="submit" data-button>Enviar</button>
 
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" placeholder="Sua mensagem" rows="6"></textarea>
-            <small class="error"></small>
-            
-            <div class="center">
-                <input type="submit" value="Enviar mensagem">
-                <p id="success"></p>
-            </div>
-
-        </form>
-    </div>
-    
+    </form>
+</div>
 </body>
 </html>
