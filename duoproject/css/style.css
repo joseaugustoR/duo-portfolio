@@ -1,0 +1,412 @@
+body {
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #CE96A3;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: #FFFF;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 15px;
+    font-family: 'Inter' , sans-serif;
+    border: none;
+}
+
+.navbar a:hover {
+    background-color: #C78E9B;
+    color: #FFFF;
+}
+
+.navbar .logo {
+    max-height: 50px;
+    margin-right: 30px;
+    margin-left: 16px; 
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+      
+.apresentação h1{
+    color: #DBA15E;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-bottom: 2px;
+}
+.apresentação p{
+    color: #547E9F;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+
+#sobre {
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+    padding-left: 430px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 150px;
+    
+}
+
+/*------------------ JOSE ------------------*/
+
+.containerj {
+    background-color: rgb(252, 238, 221);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto; /* Ajuste conforme necessário */
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.fotoj {
+  margin-left: 80px;
+}
+
+.textoj {
+  margin-left: 50px;
+  margin-right: 80px;
+}
+
+.textoj h2{
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+}
+
+.textoj p{
+    text-align: justify;
+    line-height: 25px;
+    color: #547E9F;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    width: 400px;
+}
+
+.infoj h2{
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+    
+} 
+
+.infoj p{
+    color: #547E9F;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.infoj {
+    line-height: 20px; 
+}
+
+#links {
+    text-decoration: none;
+    color:#547E9F;
+}
+
+/*-------------------- KAROL -------------------*/
+
+.containerk {
+    background-color: rgb(252, 238, 221);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto; /* Ajuste conforme necessário */
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.fotok {
+  margin-left: 80px;
+}
+
+.textok {
+  margin-left: 50px;
+  margin-right: 80px;
+}
+
+.textok h2{
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+}
+
+.textok p{
+    text-align: justify;
+    line-height: 25px;
+    color: #547E9F;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    width: 400px;
+}
+
+.infok h2{
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+    
+} 
+
+.infok p{
+    color: #547E9F;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.infok {
+    line-height: 20px; 
+}
+
+/*---------------- AREA PROJ -----------------------*/
+
+#nproj {
+    color: #DBA15E;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 35px;
+}
+
+#proj {
+    color: #547E9F;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 25px;
+}
+
+.grid-container {
+    background-color: rgb(252, 238, 221);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 450px;
+    margin: 0 auto; /* Ajuste conforme necessário */
+    margin-bottom: 30px;
+}
+
+.grid-align {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.legenda {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Fugaz One' , sans-serif;
+    color: #547E9F;
+}
+
+.cabecalhoprojs {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.imgproj:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.infoj p, .infok p {
+    line-height: 25px;
+}
+
+.opac:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+/*---------------- RESPONSIVIDADE -----------------------*/
+
+@media screen and (max-width:1400px){
+
+     .container {
+        background-color: rgb(252, 238, 221);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 45%;
+        padding: 10px 50px 330px 50px; 
+        margin: 5px 60px 50px 60px; /* Ajuste conforme necessário */
+      }
+
+      .containerj, .containerk, .grid-container {
+        width: 1250px;
+    
+     }
+	
+}
+
+
+@media screen and (max-width: 830px) {
+
+    .navbar {
+        width: 830px;
+    }
+
+    .banner{
+        width: 800px;
+        padding-top: 50px;
+        height: auto;
+    }
+
+    .apresentação h1{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        margin: 30px 0 50px 80px;
+    }
+
+    .apresentação p{
+       width: 600px;
+       margin: 0;
+       padding: 0;
+       margin: 30px 0 50px 80px;
+       
+    }
+
+    .containerk, .containerj {
+        width: 700px;
+        display: grid;  
+        grid-gap: 60px;  
+        grid-template-columns: 2fr 2fr;
+        height: 820px;
+    }
+
+    .fotoj, .fotok {
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-right: -90px;
+    }
+
+    .textok p, .textoj p{
+        width: 300px;
+        font-size: 15px;
+        margin-left: -30px;
+        
+    }
+
+    .textok h2, .textoj h2 {
+        margin-left: -30px;
+    }
+
+    .infoj, .infok {
+        margin-left: 100px;
+        width: 260px;
+        margin-top: -100px;
+    }
+
+    .grid-align {  
+        display: grid;  
+        grid-gap: 60px;  
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .grid-container {
+        height: 800px;
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:626px){
+
+    .containerk, .containerj {
+        width: 450px;
+        display: grid;  
+        grid-gap: 100px;  
+        grid-template-columns: 1fr;
+        height: 1100px;
+        margin-left: 50px;
+    }
+
+    .grid-align {  
+        display: grid;  
+        grid-gap: 60px;  
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container {
+        height: 1250px;
+        margin-left: 50px;
+    }
+
+    .navbar a {
+        padding: 14px 8px;
+        font-size: 15px;
+        width: 426px;
+    }
+
+    .banner{
+        width: 600px;
+        padding-top: 50px;
+    }
+
+    .apresentação p, h1{
+        width: 400px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+        word-spacing: 2px;
+        line-height: 18px;
+    }
+
+    .apresentação p {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .fotoj, .fotok {
+        margin-top: -40px;
+    }
+
+    .textoj, .textok {
+        margin-top: -200px;
+        margin-left: 110px;
+    }
+
+    .infoj, .infok {
+        margin-top: -150px;
+    }
+
+}
+

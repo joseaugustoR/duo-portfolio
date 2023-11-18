@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="javascript/contato.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="navbar" id="minhanavbar">
+        <img alt = "Logo DUO" src="img/logo.jpg" class="logo">
+        <a href="index.html">Sobre</a>
+        <a href="#nproj">Portifólio</a>
+        <a href="contato.html">Entre em contato</a>
+      </div>
+
+    <div id="overlay">
+        <form action="https://api.staticforms.xyz/submit" method="post" data-form>
+        <input type="hidden" name="accessKey" value="f8fb56a0-e769-48ff-8efb-6811faa3d453">
+        <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+
+        <h1>Entre em contato</h1>
+        <label for="nome">Nome</label>
+        <input type="text" name="name" id="nome" required>
+        
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" required>
+        
+        <label for="mensagem">Mensagem</label>
+        <textarea name="message" id="mensagem" required></textarea>
+
+        <button type="submit" data-button>Enviar</button>
+
+    </form>
+</div>
+</body>
+</html>

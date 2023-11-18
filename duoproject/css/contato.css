@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    background-color: rgb(252, 252, 225);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: beige;
+}
+
+form {
+    max-width: 550px;
+    width: 90%;
+    background: white;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    color: #DBA15E;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+    font-family: 'Fugaz One' , sans-serif;
+    font-size: 30px;
+    padding-left: 110px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+
+label, input {
+    font-family: 'Fugaz One' , sans-serif;
+    color:#547E9F;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    color: white;
+    background: #d1dde6;
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: border-color 0.3s, 
+    box-shadow 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 0 0.3125rem #c1d8eb;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #DBA15E;
+    text-shadow: #f8e0c5 0.1em 0.1em 0.2em;
+}
+
+textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+button {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #DBA15E;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    background: #dfa96b;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: #0a235c;
+}
+
+@media screen and (max-width:1400px){
+
+    form {
+        max-width: 550px;
+        width: 90%;
+        background: white;
+        margin: 17vh auto 0 auto;
+        padding: 40px;
+        border-radius: 3px;
+        box-sizing: border-box;
+        margin-top: 60px;
+    }
+
+    textarea {
+        min-height: 5.5rem;
+        resize: vertical;
+    }
+
+}
