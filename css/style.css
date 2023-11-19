@@ -42,6 +42,17 @@ body {
     width: 100%;
     height: auto;
 }
+
+#link-topo {
+    text-decoration: none;
+    color: white;
+    background-color: #C78E9B;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
       
 .apresentação h1{
     color: #DBA15E;
